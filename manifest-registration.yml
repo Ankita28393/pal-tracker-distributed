@@ -2,7 +2,7 @@ applications:
 - name: tracker-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
-  - route: registration-pal.apps.cheeseburst.pal.pivotal.io
+  - route: registration-pal1.cfapps.io
   memory: 1G
   instances: 1
   services:
